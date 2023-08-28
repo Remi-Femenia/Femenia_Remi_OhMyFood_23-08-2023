@@ -1,12 +1,18 @@
-/* Colors */
-body {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 9 |     font-weight: $font-weight;
+ *   |                  ^^^^^^^^^^^^
+ *   '
+ *   base/typography.scss 9:18  @import
+ *   main.scss 9:9              root stylesheet */
 
-header {
-  width: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 9 \2502      font-weight: $font-weight;\a   \2502                   ^^^^^^^^^^^^\a   \2575 \a   base/typography.scss 9:18  @import\a   main.scss 9:9              root stylesheet";
 }
-
-/*# sourceMappingURL=style.css.map */
