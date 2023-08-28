@@ -1,9 +1,21 @@
 body {
     margin: 0;
+    color: $main-font-color;
 }
 
 .main-container {
     max-width: 767.98px;
     box-sizing: border-box;
     margin: auto;
+}
+
+a {
+    color: $main-font-color;
+    text-decoration: none;
+}
+
+/* Provisoire */
+img {
+    height: 20px;
+    width: 20px;
 }
