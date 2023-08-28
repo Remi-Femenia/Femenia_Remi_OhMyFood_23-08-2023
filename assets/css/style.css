@@ -1,5 +1,9 @@
 /* Colors */
 /* Fonts */
+body {
+  margin: 0;
+}
+
 .main-container {
   max-width: 767.98px;
   box-sizing: border-box;
@@ -24,6 +28,7 @@ h1 {
 .header .header__logo {
   height: 36px;
   width: 600px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
