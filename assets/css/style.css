@@ -1,83 +1,17 @@
-/* Colors */
-/* Fonts */
-body {
-  margin: 0;
-  color: black;
-}
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 30 | @import "themes/theme.scss"
+ *    |         ^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss/main.scss 30:9  root stylesheet */
 
-.main-container {
-  max-width: 767.98px;
-  box-sizing: border-box;
-  margin: auto;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-/* Provisoire */
-img {
-  height: 20px;
-  width: 20px;
-}
-
-body {
-  color: black;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-
-h1 {
-  font-size: 1.1rem;
-  font-weight: 700;
-}
-
-.header {
-  width: 100%;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.header .header__logo {
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  height: 44px;
-  width: 162px;
-  padding-top: 25px;
-  padding-bottom: 13px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 30 \2502  @import \"themes/theme.scss\"\a    \2502          ^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss/main.scss 30:9  root stylesheet";
 }
-
-.search-location-form {
-  background-color: #EAEAEA;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0 15px 0;
-  box-shadow: inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
-}
-.search-location-form__logo {
-  width: 12px;
-  height: 16px;
-  padding-right: 17px;
-}
-.search-location-form__input {
-  border: none;
-  color: black;
-  font-size: 1rem;
-  font-weight: 500;
-  background-color: #EAEAEA;
-}
-.search-location-form__input::placeholder {
-  color: black;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-.CTA {
-  background-color: #F6F6F6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/*# sourceMappingURL=style.css.map */
