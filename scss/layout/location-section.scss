@@ -1,9 +1,16 @@
-.location {
-    background-color: $background;
-    .location__logo {
+.search-location-form {
+    background-color: $search-background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__logo {
 
     }
-    .location__text {
-
+    
+    &__input {
+        border: none;
+        background-color: $search-background;
     }
+    
 }
