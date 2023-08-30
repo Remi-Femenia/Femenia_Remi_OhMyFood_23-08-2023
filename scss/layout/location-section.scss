@@ -3,14 +3,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px 0 15px 0;
     
     &__logo {
-
+        width: 12px;
+        height: 16px;
+        padding-right: 17px;
     }
     
     &__input {
         border: none;
+        color: black;
         background-color: $search-background;
+        
+        &::placeholder {
+            color: black;
+            font-size: 1rem;
+            font-weight: 500;
+        }
     }
-    
 }
