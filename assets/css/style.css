@@ -52,7 +52,7 @@ h1 {
   padding: 13px 18px;
   color: white;
   font-weight: 500;
-  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(174, 95, 219) 47%, rgb(255, 121, 218) 100%);
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(200, 103, 219) 50%, rgb(255, 121, 218) 100%);
   box-shadow: 0 22px 80px rgba(0, 0, 0, 0.5);
 }
 
