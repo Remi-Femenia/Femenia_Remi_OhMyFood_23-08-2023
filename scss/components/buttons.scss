@@ -5,4 +5,5 @@
         color: white;
         font-weight: 500;
         @include button-gradient;
+        @include principal-shadow;
     }
