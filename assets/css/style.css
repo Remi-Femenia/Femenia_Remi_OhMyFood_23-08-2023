@@ -124,4 +124,19 @@ h2 {
   margin-bottom: 57px;
 }
 
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 26px;
+  margin: 48px 20px 68px 20px;
+}
+.fonctionnement__steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */

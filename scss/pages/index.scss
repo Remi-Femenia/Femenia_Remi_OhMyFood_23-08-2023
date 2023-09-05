@@ -26,12 +26,17 @@
 }
 
 .fonctionnement {
-
-    &__title {
-
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 26px;
+    margin: 48px 20px 68px 20px;
 
     &__steps {
-
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
     }
 }
