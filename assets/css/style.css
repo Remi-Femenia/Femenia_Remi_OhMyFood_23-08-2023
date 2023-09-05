@@ -94,5 +94,11 @@ h1 {
   margin-top: 39px;
   margin-bottom: 15px;
 }
+.CTA__subtitle {
+  font-size: 1, 1rem;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 /*# sourceMappingURL=style.css.map */
