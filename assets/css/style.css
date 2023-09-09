@@ -144,10 +144,6 @@ h2 {
 .fonctionnement-crd {
   display: flex;
   align-items: center;
-  background-color: #F6F6F6;
-  border-radius: 20px;
-  padding-top: 27px;
-  padding-bottom: 27px;
   width: 100%;
 }
 .fonctionnement-crd__number {
@@ -157,12 +153,20 @@ h2 {
   background-color: #9356DC;
   border-radius: 50px;
   padding: 6px;
-  margin: -8px;
+  margin-right: -6px;
+}
+.fonctionnement-crd__content {
+  display: flex;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-radius: 20px;
+  padding-top: 27px;
+  padding-bottom: 27px;
 }
 .fonctionnement-crd__content--icon {
   color: #7E7E7E;
+  padding-left: 35px;
   width: 24px;
-  padding-left: 5%;
 }
 .fonctionnement-crd__content--text {
   padding-left: 6%;
