@@ -101,6 +101,7 @@ h2 {
   font-weight: 500;
 }
 
+/* Section CTA */
 .CTA {
   background-color: #F6F6F6;
   display: flex;
@@ -124,6 +125,7 @@ h2 {
   margin-bottom: 57px;
 }
 
+/* Section Fonctionnement */
 .fonctionnement {
   display: flex;
   flex-direction: column;
