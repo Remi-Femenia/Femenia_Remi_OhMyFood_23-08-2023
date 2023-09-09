@@ -131,7 +131,7 @@ h2 {
   gap: 26px;
   margin: 48px 20px 68px 20px;
 }
-.fonctionnement__steps {
+.fonctionnement-steps {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
