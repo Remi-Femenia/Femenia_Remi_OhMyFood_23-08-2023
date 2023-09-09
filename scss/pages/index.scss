@@ -41,7 +41,7 @@
     }
 }
 
-.fonctionnement-steps-card {
+.fonctionnement-crd {
     display: flex;
     align-items: center;
     background-color: $background;
@@ -60,13 +60,17 @@
         margin: -8px;
     }
 
-    &__icon {
-        color: $index-icon-color;
-        width: 24px;
-        padding-left: 5%;
-    }
+    &__content {
+        &--icon {
+            color: $index-icon-color;
+            width: 24px;
+            padding-left: 5%;
+        }
+    
+        &--text {
+            padding-left: 6%;
+        }
 
-    &__text {
-        padding-left: 6%;
+
     }
 }
