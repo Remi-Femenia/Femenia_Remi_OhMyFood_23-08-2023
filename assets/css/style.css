@@ -139,37 +139,42 @@ h2 {
   justify-content: space-between;
   align-items: center;
   gap: 25px;
+  width: 100%;
 }
 
 .fonctionnement-crd {
+  box-sizing: border-box;
   width: 100%;
-}
-.fonctionnement-crd__content {
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 21px -4px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   background-color: #F6F6F6;
   border-radius: 20px;
   padding-top: 27px;
   padding-bottom: 27px;
 }
-.fonctionnement-crd__content--number {
+.fonctionnement-crd__number {
   display: inline-block;
   font-size: 0.9rem;
   text-align: center;
   color: white;
   background-color: #9356DC;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  padding: 6px;
-  margin-left: -6px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 12px;
 }
-.fonctionnement-crd__content--icon {
+.fonctionnement-crd__icon {
   color: #7E7E7E;
-  padding-left: 35px;
+  padding-left: 13px;
   width: 24px;
 }
-.fonctionnement-crd__content--text {
+.fonctionnement-crd__text {
   padding-left: 6%;
 }
 
