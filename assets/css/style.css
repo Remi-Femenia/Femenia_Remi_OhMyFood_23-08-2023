@@ -143,6 +143,7 @@ h2 {
 
 .fonctionnement-crd {
   width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .fonctionnement-crd__content {
   display: flex;
