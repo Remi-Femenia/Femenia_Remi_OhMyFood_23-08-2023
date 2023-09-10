@@ -43,6 +43,7 @@
         justify-content: space-between;
         align-items: center;
         gap: 25px;
+        width: 100%;
     }
 }
 
@@ -65,15 +66,18 @@
         color: white;
         background-color: $main-color;
         border-radius: 50%;
-        width: 24px;
-        height: 24px;
-        padding: 6px;
-        margin-left: -6px;
+        width: 26px;
+        height: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 12px;
     }
 
     &__icon {
         color: $index-icon-color;
-        padding-left: 35px;
+        padding-left: 13px;
         width: 24px;
     }
     

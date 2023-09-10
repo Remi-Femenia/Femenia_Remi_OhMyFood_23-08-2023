@@ -139,6 +139,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   gap: 25px;
+  width: 100%;
 }
 
 .fonctionnement-crd {
@@ -160,14 +161,17 @@ h2 {
   color: white;
   background-color: #9356DC;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  padding: 6px;
-  margin-left: -6px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 12px;
 }
 .fonctionnement-crd__icon {
   color: #7E7E7E;
-  padding-left: 35px;
+  padding-left: 13px;
   width: 24px;
 }
 .fonctionnement-crd__text {
