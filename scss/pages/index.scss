@@ -48,39 +48,37 @@
 
 .fonctionnement-crd {
     width: 100%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 21px -4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $background;
+    border-radius: 20px;
+    padding-top: 27px;
+    padding-bottom: 27px;
 
-    &__content {
-        display: flex;
-        align-items: center;
-        background-color: $background;
-        border-radius: 20px;
-        padding-top: 27px;
-        padding-bottom: 27px;
-
-        &--number {
-            display: inline-block;
-            font-size: 0.9rem;
-            text-align: center;
-            color: white;
-            background-color: $main-color;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            padding: 6px;
-            margin-left: -6px;
-        }
-
-        &--icon {
-            color: $index-icon-color;
-            padding-left: 35px;
-            width: 24px;
-        }
-    
-        &--text {
-            padding-left: 6%;
-        }
-
-
+    &__number {
+        display: inline-block;
+        font-size: 0.9rem;
+        text-align: center;
+        color: white;
+        background-color: $main-color;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        padding: 6px;
+        margin-left: -6px;
     }
+
+    &__icon {
+        color: $index-icon-color;
+        padding-left: 35px;
+        width: 24px;
+    }
+    
+    &__text {
+        padding-left: 6%;
+    }
+
 }
