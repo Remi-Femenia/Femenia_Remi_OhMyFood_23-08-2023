@@ -178,4 +178,21 @@ h2 {
   padding-left: 6%;
 }
 
+/* Section Restaurants */
+.restaurant {
+  background-color: #F6F6F6;
+  padding: 54px 18px 66px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */

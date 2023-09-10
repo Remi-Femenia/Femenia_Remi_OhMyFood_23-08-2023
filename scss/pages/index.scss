@@ -86,3 +86,21 @@
     }
 
 }
+
+/* Section Restaurants */
+
+.restaurant {
+    background-color: $background;
+    padding: 54px 18px 66px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
+}
