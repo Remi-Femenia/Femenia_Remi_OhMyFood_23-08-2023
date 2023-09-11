@@ -107,28 +107,51 @@
 }
 
 .restaurant-crd {
-    border-radius: 25%;
+    background-color: white;
+    border-radius: 5%;
+    box-sizing: border-box;
 
     .img-section {
         &__new {
+            width: 80px;
+            height: 29px;
+            font-size: 0.8rem;
             color: $element-text;
             background-color: $second-color;
+            padding: 7px 9px;
+            border-radius: 5%;
+            position: absolute;
+            top: 13px;
 
         }
 
         &__img {
-            height: 231px;
+            height: 160px;
             width: 100%;
             object-fit: cover;
+            position: relative;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
 
         }
 
     }
 
     .crd-content {
-        padding: 16px 25px 12px 13px;
+        padding: 16px 25px 15px 13px;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
+
+        .crd-text {
+
+            &__title {
+                margin-bottom: 5px;
+
+            }
+
+        }
     }
 
 

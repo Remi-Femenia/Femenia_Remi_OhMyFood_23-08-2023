@@ -2,6 +2,10 @@
         background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(200,103,219,1) 50%, rgba(255,121,218,1) 100%);
     }
 
-    @mixin principal-shadow {
-        box-shadow: 0 22px 80px rgba(0, 0, 0, 0.5);
+    @mixin button-shadow {
+        box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
+    }
+
+    @mixin card-shadow {
+        box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 21px -4px;
     }

@@ -28,6 +28,11 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
 /* Provisoire */
 img {
   height: 20px;
@@ -58,7 +63,7 @@ h2 {
   color: white;
   font-weight: 500;
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(200, 103, 219) 50%, rgb(255, 121, 218) 100%);
-  box-shadow: 0 22px 80px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -195,21 +200,38 @@ h2 {
 }
 
 .restaurant-crd {
-  border-radius: 25%;
+  background-color: white;
+  border-radius: 5%;
+  box-sizing: border-box;
 }
 .restaurant-crd .img-section__new {
+  width: 80px;
+  height: 29px;
+  font-size: 0.8rem;
   color: #008766;
   background-color: #99E2D0;
+  padding: 7px 9px;
+  border-radius: 5%;
+  position: absolute;
+  top: 13px;
 }
 .restaurant-crd .img-section__img {
-  height: 231px;
+  height: 160px;
   width: 100%;
   object-fit: cover;
+  position: relative;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 .restaurant-crd .crd-content {
-  padding: 16px 25px 12px 13px;
+  padding: 16px 25px 15px 13px;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+.restaurant-crd .crd-content .crd-text__title {
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
