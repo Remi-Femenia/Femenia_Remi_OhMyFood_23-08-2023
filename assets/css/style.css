@@ -187,12 +187,29 @@ h2 {
   justify-content: space-between;
   gap: 24px;
 }
-
 .restaurant-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 18px;
+}
+
+.restaurant-crd {
+  border-radius: 25%;
+}
+.restaurant-crd .img-section__new {
+  color: #008766;
+  background-color: #99E2D0;
+}
+.restaurant-crd .img-section__img {
+  height: 231px;
+  width: 100%;
+  object-fit: cover;
+}
+.restaurant-crd .crd-content {
+  padding: 16px 25px 12px 13px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */

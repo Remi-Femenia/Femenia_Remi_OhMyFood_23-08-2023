@@ -87,6 +87,7 @@
 
 }
 
+
 /* Section Restaurants */
 
 .restaurant {
@@ -96,11 +97,39 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 24px;
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+    }
 }
 
-.restaurant-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 18px;
+.restaurant-crd {
+    border-radius: 25%;
+
+    .img-section {
+        &__new {
+            color: $element-text;
+            background-color: $second-color;
+
+        }
+
+        &__img {
+            height: 231px;
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+    }
+
+    .crd-content {
+        padding: 16px 25px 12px 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 }
