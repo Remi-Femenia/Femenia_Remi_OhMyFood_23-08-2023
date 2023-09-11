@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: $main-font-color;
+    color: none;
     text-decoration: none;
 }
 
@@ -29,6 +29,15 @@ h2 {
 h3 {
     margin: 0;
     font-size: 1.1rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 /* Provisoire */

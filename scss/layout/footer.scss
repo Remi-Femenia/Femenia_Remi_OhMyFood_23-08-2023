@@ -1,1 +1,28 @@
+.footer {
+    background-color: $footer-background;
+    color: white;
 
+    .footer-logo {
+        height: 27px;
+        width: 137px;
+        color: white;
+    }
+
+    .footer-list {
+        .footer-list-element {
+            color: white;
+
+            &__icon {
+
+            }
+
+            &__text {
+                
+            }
+
+
+        }
+    }
+
+
+}
