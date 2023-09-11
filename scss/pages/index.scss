@@ -108,7 +108,7 @@
 
 .restaurant-crd {
     background-color: white;
-    border-radius: 5%;
+    border-radius: 15px;
     box-sizing: border-box;
 
     .img-section {
@@ -120,8 +120,7 @@
             background-color: $second-color;
             padding: 7px 9px;
             border-radius: 5%;
-            position: absolute;
-            top: 13px;
+            position: relative;
 
         }
 
@@ -130,8 +129,8 @@
             width: 100%;
             object-fit: cover;
             position: relative;
-            border-top-left-radius: 5%;
-            border-top-right-radius: 5%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
 
         }
 
