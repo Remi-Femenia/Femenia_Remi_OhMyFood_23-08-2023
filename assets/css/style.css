@@ -136,7 +136,7 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   gap: 26px;
-  margin: 48px 20px 68px 20px;
+  margin: 48px 20px 68px 25px;
 }
 .fonctionnement-steps {
   display: flex;
@@ -224,7 +224,7 @@ h2 {
   border-top-right-radius: 5%;
 }
 .restaurant-crd .crd-content {
-  padding: 16px 25px 15px 13px;
+  padding: 12px 25px 15px 13px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
