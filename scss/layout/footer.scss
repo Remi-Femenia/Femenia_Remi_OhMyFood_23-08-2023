@@ -1,28 +1,42 @@
 .footer {
     background-color: $footer-background;
     color: white;
+    padding: 22px 25px;
 
     .footer-logo {
         height: 27px;
         width: 137px;
-        color: white;
+        color: lighten(black,100%);
+        margin-bottom: 16px;
     }
 
     .footer-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 7px;
+
         .footer-list-element {
+            
+            &__link {
             color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
 
-            &__icon {
-
-            }
-
-            &__text {
+                &__icon {
+                    padding-right: 11px;
                 
+
+                }
+
+                &__text {
+                    
+                }
+
+
             }
-
-
         }
+
     }
-
-
 }
