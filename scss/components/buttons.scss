@@ -6,4 +6,10 @@
         font-weight: 500;
         @include button-gradient;
         @include button-shadow;
+
+        /*
+        &:hover {
+            @include button-hover-gradient;
+        }
+        */
     }
