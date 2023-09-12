@@ -302,4 +302,10 @@ h2 {
   margin-bottom: 5px;
 }
 
+/*** Image ***/
+.rstrnt__img {
+  width: 100%;
+  height: 275px;
+}
+
 /*# sourceMappingURL=style.css.map */
