@@ -2,9 +2,14 @@
 
 }
 
+.rstrnt-principal {
+    z-index: 1;
+}
+
+
 /*** Image ***/
 
-.rstrnt__img {
+.rstrnt-img-section__img {
     width: 100%;
-    height: 275px;
+    object-fit: cover;
 }
