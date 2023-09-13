@@ -72,6 +72,7 @@ h2 {
   border-radius: 25px;
   padding: 13px 18px;
   color: white;
+  text-align: center;
   font-weight: 500;
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
   box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
@@ -138,7 +139,7 @@ h2 {
   width: 100%;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   position: relative;
-  margin-top: 25px;
+  margin-top: 14px;
   padding-bottom: 13px;
   margin-left: auto;
   margin-right: auto;
@@ -314,14 +315,96 @@ h2 {
   margin-bottom: 5px;
 }
 
-.rstrnt-principal {
-  z-index: 1;
-}
-
 /*** Image ***/
 .rstrnt-img-section__img {
   width: 100%;
   object-fit: cover;
+}
+
+.rstrnt-principal {
+  background-color: #F6F6F6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  position: relative;
+  z-index: 1;
+  padding: 32px 17px 40px 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.rstrnt-principal .rstrnt-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.rstrnt-principal .rstrnt-title__title {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.7rem;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+}
+.menu-section .menu-title {
+  position: relative;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.menu-section .menu-title::before {
+  content: "";
+  position: absolute;
+  top: 19px;
+  height: 5px;
+  width: 40px;
+  border-bottom: 3px #99E2D0 solid;
+}
+.menu-section .menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 19px;
+}
+.menu-section .menu-list .menu-card {
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.menu-section .menu-list .menu-card-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.menu-section .menu-list .menu-card-text-section__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.menu-section .menu-list .menu-card-text-section__subtitle {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.menu-section .menu-list .menu-card-price-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.menu-section .menu-list .menu-card-price-section__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.menu-order-btn__button {
+  padding: 16px 49px;
 }
 
 /*# sourceMappingURL=style.css.map */

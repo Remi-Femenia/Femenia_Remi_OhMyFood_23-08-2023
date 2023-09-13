@@ -1,11 +1,6 @@
 .header {
-
+    
 }
-
-.rstrnt-principal {
-    z-index: 1;
-}
-
 
 /*** Image ***/
 
@@ -13,3 +8,120 @@
     width: 100%;
     object-fit: cover;
 }
+
+.rstrnt-principal {
+    background-color: $background;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    z-index: 1;
+    padding: 32px 17px 40px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    .rstrnt-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+
+        &__title {
+            font-family: 'Shrikhand', cursive;
+            font-size: 1.7rem;
+
+        }
+
+    }
+
+}
+
+.menu-section {
+    margin-bottom: 40px;
+
+    .menu-title {
+        position: relative;
+        font-size: 1rem;
+        font-weight: 300;
+
+        &::before {
+        content: "";
+        position: absolute;
+        top: 19px;
+        height: 5px;
+        width: 40px;
+        border-bottom: 3px $second-color solid;
+        }
+        
+    }
+
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 19px;
+        
+
+        .menu-card {
+            background-color: white;
+            padding: 15px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-radius: 15px;
+
+            &-text-section {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 5px;
+
+                &__title {
+                    font-size: 1.1rem;
+                    font-weight: 700;
+
+                }
+
+                &__subtitle {
+                    font-size: 0.9rem;
+                    font-weight: 300;
+                }
+
+            }
+
+            &-price-section {
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+
+                &__price {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: end;
+                    font-weight: 700;
+                    font-size: 0.9rem;
+                }
+
+            }
+
+        }
+    }
+
+
+}
+
+.menu-order-btn {
+    &__button {
+        padding: 16px 49px;
+    }
+
+}
+
+
+
+
+
