@@ -318,6 +318,7 @@ h2 {
 /*** Image ***/
 .rstrnt-img-section__img {
   width: 100%;
+  height: 275px;
   object-fit: cover;
 }
 
