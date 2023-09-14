@@ -329,11 +329,6 @@ h2 {
   position: relative;
   z-index: 1;
   padding: 32px 17px 40px 17px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
 }
 .rstrnt-principal .rstrnt-title {
   display: flex;
@@ -370,7 +365,16 @@ h2 {
 }
 
 .menu-and-check {
+  width: 100%;
   display: flex;
+}
+.menu-and-check:hover .menu-card {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.menu-and-check:hover .menu-check {
+  display: flex;
+  cursor: pointer;
 }
 .menu-and-check .menu-card {
   background-color: white;
@@ -410,7 +414,7 @@ h2 {
 .menu-and-check .menu-check {
   color: white;
   background-color: #99E2D0;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   border-top-right-radius: 15px;
