@@ -368,7 +368,11 @@ h2 {
   gap: 12px;
   margin-top: 19px;
 }
-.menu-section .menu-list .menu-card {
+
+.menu-and-check {
+  display: flex;
+}
+.menu-and-check .menu-card {
   background-color: white;
   padding: 15px;
   width: 100%;
@@ -377,31 +381,41 @@ h2 {
   justify-content: space-between;
   border-radius: 15px;
 }
-.menu-section .menu-list .menu-card-text-section {
+.menu-and-check .menu-card-text-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 5px;
 }
-.menu-section .menu-list .menu-card-text-section__title {
+.menu-and-check .menu-card-text-section__title {
   font-size: 1.1rem;
   font-weight: 700;
 }
-.menu-section .menu-list .menu-card-text-section__subtitle {
+.menu-and-check .menu-card-text-section__subtitle {
   font-size: 0.9rem;
   font-weight: 300;
 }
-.menu-section .menu-list .menu-card-price-section {
+.menu-and-check .menu-card-price-section {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-.menu-section .menu-list .menu-card-price-section__price {
+.menu-and-check .menu-card-price-section__price {
   display: flex;
   flex-direction: column;
   justify-content: end;
   font-weight: 700;
   font-size: 0.9rem;
+}
+.menu-and-check .menu-check {
+  color: white;
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 20px;
 }
 
 .menu-order-btn__button {

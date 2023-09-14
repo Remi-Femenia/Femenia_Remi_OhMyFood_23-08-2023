@@ -64,54 +64,68 @@
         flex-direction: column;
         gap: 12px;
         margin-top: 19px;
-        
+    }
 
-        .menu-card {
-            background-color: white;
-            padding: 15px;
-            width: 100%;
+
+}
+
+.menu-and-check {
+    display: flex;
+
+    .menu-card {
+        background-color: white;
+        padding: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 15px;
+
+        &-text-section {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-between;
-            border-radius: 15px;
+            gap: 5px;
 
-            &-text-section {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                gap: 5px;
-
-                &__title {
-                    font-size: 1.1rem;
-                    font-weight: 700;
-
-                }
-
-                &__subtitle {
-                    font-size: 0.9rem;
-                    font-weight: 300;
-                }
+            &__title {
+                font-size: 1.1rem;
+                font-weight: 700;
 
             }
 
-            &-price-section {
+            &__subtitle {
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+
+        }
+
+        &-price-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+
+            &__price {
                 display: flex;
                 flex-direction: column;
                 justify-content: end;
-
-                &__price {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: end;
-                    font-weight: 700;
-                    font-size: 0.9rem;
-                }
-
+                font-weight: 700;
+                font-size: 0.9rem;
             }
 
         }
     }
 
+    .menu-check {
+        color: white;
+        background-color: $second-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding: 0 20px;
+    }
 
 }
 
