@@ -5,12 +5,13 @@
         color: white;
         text-align: center;
         font-weight: 500;
+        cursor: pointer;
         @include button-gradient;
         @include button-shadow;
 
         /*
         &:hover {
-            @include button-hover-gradient;
+            
         }
         */
     }
