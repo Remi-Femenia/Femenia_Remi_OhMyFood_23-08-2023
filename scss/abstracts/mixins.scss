@@ -2,18 +2,21 @@
         background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
     }
 
-    /* @mixin button-hover-gradient {
-        background: lighten($button-gradient, 50%)
-    } */
-
     @mixin button-shadow {
-        box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3);
     }
+
+    /* button hover */
+
+    @mixin button-gradient-hover {
+        background: linear-gradient(0deg, $gradient-color-1--hover 0%, $gradient-color-2--hover 100%);
+    }
+
+    @mixin button-shadow-hover {
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    }
+
 
     @mixin card-shadow {
         box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 21px -4px;
-    }
-
-    @mixin logo-white {
-        @debug color.whiteness(100%);
     }

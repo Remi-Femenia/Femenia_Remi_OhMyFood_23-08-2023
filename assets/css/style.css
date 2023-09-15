@@ -1,7 +1,6 @@
-/* @mixin button-hover-gradient {
-    background: lighten($button-gradient, 50%)
-} */
+/* button hover */
 /* Colors */
+/* Gradient */
 /* Fonts */
 body {
   margin: 0;
@@ -76,12 +75,11 @@ h2 {
   font-weight: 500;
   cursor: pointer;
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
-  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.2);
-  /*
-  &:hover {
-
-  }
-  */
+  box-shadow: 0 6px 9px rgba(0, 0, 0, 0.3);
+}
+.principal-btn:hover {
+  background: linear-gradient(0deg, #ba95ea 0%, #ff99e2 100%);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 .menu-card {

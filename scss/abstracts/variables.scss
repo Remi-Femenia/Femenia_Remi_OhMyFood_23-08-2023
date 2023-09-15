@@ -8,7 +8,12 @@ $background: #F6F6F6;
 $search-background: #EAEAEA;
 $footer-background: #353535;
 
-$button-gradient: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+/* Gradient */
+
+$gradient-color-1: rgba(147,86,220,1);
+$gradient-color-2: rgba(255,121,218,1);
+$gradient-color-1--hover: #ba95ea;
+$gradient-color-2--hover: #ff99e2;
 
 /* Fonts */
 
