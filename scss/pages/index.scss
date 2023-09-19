@@ -112,15 +112,24 @@
     box-sizing: border-box;
 
     .img-section {
+        position: relative;
+        display: flex;
+        justify-content: end;
+
         &__new {
             width: 80px;
             height: 29px;
             font-size: 0.8rem;
             color: $element-text;
             background-color: $second-color;
-            padding: 7px 9px;
+            padding-top: 7px;
             border-radius: 5%;
-            position: relative;
+            position: absolute;
+            box-sizing: border-box;
+            top: 13px;
+            right: 13px;
+            text-align: center;
+            
 
         }
 
@@ -128,7 +137,6 @@
             height: 160px;
             width: 100%;
             object-fit: cover;
-            position: relative;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
 
