@@ -67,6 +67,7 @@ h2 {
 }
 
 .principal-btn {
+  font-size: 1rem;
   border: 0;
   border-radius: 25px;
   padding: 13px 18px;
@@ -344,6 +345,16 @@ h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.7rem;
 }
+.rstrnt-principal .rstrnt-title-like-section__like--off {
+  color: aquamarine;
+}
+.rstrnt-principal .rstrnt-title-like-section__like--activated {
+  color: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+}
+.rstrnt-principal .rstrnt-title-like-section__like--activated::before {
+  display: initial;
+}
 
 .rstrnt-menu {
   display: flex;
@@ -351,13 +362,12 @@ h2 {
   justify-content: space-between;
   gap: 40px;
 }
-
-.menu-section .menu-title {
+.rstrnt-menu .menu-section .menu-title {
   position: relative;
   font-size: 1rem;
   font-weight: 300;
 }
-.menu-section .menu-title::before {
+.rstrnt-menu .menu-section .menu-title::before {
   content: "";
   position: absolute;
   top: 19px;
@@ -365,7 +375,7 @@ h2 {
   width: 40px;
   border-bottom: 3px #99E2D0 solid;
 }
-.menu-section .menu-list {
+.rstrnt-menu .menu-section .menu-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
