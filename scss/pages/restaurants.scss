@@ -105,7 +105,7 @@
 
         .menu-check {
             display: flex;
-            cursor: pointer;
+    
         }
     }
 
@@ -163,6 +163,7 @@
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding: 0 20px;
+        cursor: pointer;
     }
 
 }

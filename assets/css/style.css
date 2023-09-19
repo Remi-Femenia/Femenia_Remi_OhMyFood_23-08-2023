@@ -386,7 +386,6 @@ h2 {
 }
 .menu-and-check:hover .menu-check {
   display: flex;
-  cursor: pointer;
 }
 .menu-and-check .menu-card {
   background-color: white;
@@ -432,6 +431,7 @@ h2 {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0 20px;
+  cursor: pointer;
 }
 
 .menu-order-btn {
