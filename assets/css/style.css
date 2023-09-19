@@ -348,6 +348,13 @@ h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.7rem;
 }
+.rstrnt-principal .rstrnt-title-like-section__like {
+  position: relative;
+  z-index: 1;
+}
+.rstrnt-principal .rstrnt-title-like-section__like:hover--activated {
+  opacity: 1;
+}
 .rstrnt-principal .rstrnt-title-like-section__like--activated {
   color: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);

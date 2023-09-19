@@ -36,7 +36,14 @@
 
         &-like-section {
         
-            &__like--off {
+            &__like {
+                position: relative;
+                z-index: 1;
+                &:hover {
+                    &--activated {
+                    opacity: 1;
+                    }
+                }
             }
     
             &__like--activated {
