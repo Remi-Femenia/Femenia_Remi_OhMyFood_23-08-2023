@@ -348,9 +348,6 @@ h2 {
   font-family: "Shrikhand", cursive;
   font-size: 1.7rem;
 }
-.rstrnt-principal .rstrnt-title-like-section__like--off {
-  color: aquamarine;
-}
 .rstrnt-principal .rstrnt-title-like-section__like--activated {
   color: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
@@ -392,15 +389,17 @@ h2 {
   border-radius: 15px;
   background-color: white;
 }
-.menu-and-check:hover .menu-card {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+.menu-and-check:hover + .menu-check {
+  transform: scaleX(1);
 }
 .menu-and-check .menu-card {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.menu-and-check .menu-card:hover + .menu-check {
+  transform: scaleX(1);
 }
 .menu-and-check .menu-card-text-section {
   display: flex;
@@ -431,12 +430,16 @@ h2 {
 .menu-and-check .menu-check {
   color: white;
   background-color: #99E2D0;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   padding: 0 20px;
   cursor: pointer;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 300ms;
 }
 
 /*** Button ***/

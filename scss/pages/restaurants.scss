@@ -37,7 +37,6 @@
         &-like-section {
         
             &__like--off {
-                color: aquamarine;
             }
     
             &__like--activated {
@@ -98,16 +97,8 @@
     border-radius: 15px;
     background-color: white;
 
-    &:hover {
-
-        .menu-card {
-            border-top-right-radius: 0;
-            border-bottom-right-radius: 0;
-        }
-
-        .menu-check {
-    
-        }
+    &:hover + .menu-check{
+        transform: scaleX(1);
     }
 
 
@@ -116,6 +107,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
+        &:hover + .menu-check{
+            transform: scaleX(1);
+        }
         
 
         &-text-section {
@@ -153,12 +148,16 @@
     .menu-check {
         color: white;
         background-color: $second-color;
+        display: flex;
         justify-content: center;
         align-items: center;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
         padding: 0 20px;
         cursor: pointer;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 300ms;
     }
 
 }
