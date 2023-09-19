@@ -1,6 +1,3 @@
-.header {
-    
-}
 
 /*** Image ***/
 
@@ -92,9 +89,14 @@
     }
 }
 
+
+/*** Menu item ***/
+
 .menu-and-check {
     width: 100%;
     display: flex;
+    border-radius: 15px;
+    background-color: white;
 
     &:hover {
 
@@ -104,20 +106,17 @@
         }
 
         .menu-check {
-            display: flex;
     
         }
     }
 
 
     .menu-card {
-        background-color: white;
-        padding: 15px;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border-radius: 15px;
+        
 
         &-text-section {
             display: flex;
@@ -128,14 +127,12 @@
             &__title {
                 font-size: 1.1rem;
                 font-weight: 700;
-
             }
 
             &__subtitle {
                 font-size: 0.9rem;
                 font-weight: 300;
             }
-
         }
 
         &-price-section {
@@ -150,14 +147,12 @@
                 font-weight: 700;
                 font-size: 0.9rem;
             }
-
         }
     }
 
     .menu-check {
         color: white;
         background-color: $second-color;
-        display: none;
         justify-content: center;
         align-items: center;
         border-top-right-radius: 15px;
@@ -167,6 +162,9 @@
     }
 
 }
+
+
+/*** Button ***/
 
 .menu-order-btn {
     display: flex;
