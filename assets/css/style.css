@@ -360,6 +360,7 @@ h2 {
   background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
 }
 .rstrnt-principal .rstrnt-title-like-section__like--activated::before {
+  content: "";
   display: initial;
 }
 
