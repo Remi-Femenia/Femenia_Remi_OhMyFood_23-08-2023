@@ -104,7 +104,7 @@
     border-radius: 15px;
     background-color: white;
 
-    &:hover + .menu-check{
+    &:hover .menu-check{
         transform: scaleX(1);
     }
 
@@ -164,7 +164,7 @@
         cursor: pointer;
         transform-origin: right;
         transform: scaleX(0);
-        transition: transform 300ms;
+        transition: transform 200ms ease-out;
     }
 
 }

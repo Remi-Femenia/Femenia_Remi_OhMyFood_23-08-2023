@@ -396,7 +396,7 @@ h2 {
   border-radius: 15px;
   background-color: white;
 }
-.menu-and-check:hover + .menu-check {
+.menu-and-check:hover .menu-check {
   transform: scaleX(1);
 }
 .menu-and-check .menu-card {
@@ -446,7 +446,7 @@ h2 {
   cursor: pointer;
   transform-origin: right;
   transform: scaleX(0);
-  transition: transform 300ms;
+  transition: transform 200ms ease-out;
 }
 
 /*** Button ***/
