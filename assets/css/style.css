@@ -399,15 +399,16 @@ h2 {
 }
 .menu-and-check:hover .menu-check {
   transform: scaleX(1);
+  padding: 0 20px;
+}
+.menu-and-check:hover .menu-check .menu-check__check {
+  display: block;
 }
 .menu-and-check .menu-card {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.menu-and-check .menu-card:hover + .menu-check {
-  transform: scaleX(1);
 }
 .menu-and-check .menu-card-text-section {
   display: flex;
@@ -443,11 +444,13 @@ h2 {
   align-items: center;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 0 20px;
   cursor: pointer;
   transform-origin: right;
   transform: scaleX(0);
   transition: transform 200ms ease-out;
+}
+.menu-and-check .menu-check__check {
+  display: none;
 }
 
 /*** Button ***/
