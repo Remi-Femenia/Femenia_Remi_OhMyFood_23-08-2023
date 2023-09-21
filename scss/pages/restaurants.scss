@@ -34,29 +34,6 @@
 
         }
 
-        &-like-section {
-        
-            &__like {
-                position: relative;
-                z-index: 1;
-                &:hover {
-                    &--activated {
-                    opacity: 1;
-                    }
-                }
-            }
-    
-            &__like--activated {
-                @include like-gradient;
-                background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
-                
-                &::before {
-                    content: "";
-                    display: initial;
-                }
-            }
-        }
-
     }
 
 
