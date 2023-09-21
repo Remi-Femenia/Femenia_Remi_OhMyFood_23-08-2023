@@ -182,7 +182,8 @@ h2 {
   font-weight: 500;
 }
 
-.header-nav__link__arrow-left {
+/*** Header ***/
+.header .nav-index {
   display: none;
 }
 
