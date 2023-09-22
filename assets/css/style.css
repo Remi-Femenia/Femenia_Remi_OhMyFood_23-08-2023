@@ -112,7 +112,6 @@ h2 {
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 1;
   cursor: pointer;
 }
 .like-section__like:hover .like-section__like--on {
