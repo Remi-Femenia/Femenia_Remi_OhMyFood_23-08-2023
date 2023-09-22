@@ -74,7 +74,7 @@ h2 {
 }
 .principal-btn:hover {
   background: linear-gradient(0deg, #a06be1 0%, #ff99e2 100%);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
 }
 
 .menu-card {
