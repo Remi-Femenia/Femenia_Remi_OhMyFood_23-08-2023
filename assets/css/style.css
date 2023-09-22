@@ -143,18 +143,34 @@ h2 {
   background-color: #353535;
   color: white;
   padding: 22px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 601px) {
+  .footer {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 60px 25px 30px 0;
+    gap: 60px;
+  }
 }
 .footer .footer-title {
   font-family: "Shrikhand", cursive;
   font-size: 1.1rem;
   color: white;
-  margin-bottom: 16px;
 }
 .footer .footer-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 7px;
+}
+@media (min-width: 601px) {
+  .footer .footer-list {
+    flex-direction: row;
+    gap: 40px;
+  }
 }
 .footer .footer-list .footer-list-element__link {
   color: white;
