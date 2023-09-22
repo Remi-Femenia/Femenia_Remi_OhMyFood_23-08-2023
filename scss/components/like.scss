@@ -1,0 +1,45 @@
+.like-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    &__like {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+
+            & .like-section__like--on  {
+            content: "";
+            opacity: 1;
+            }
+        }
+
+        &--on {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 400ms;
+            z-index: 2;
+            
+            &-icon {
+            background: linear-gradient(180deg,#9356dc,#ff79da);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -text-fill-color: transparent;
+
+            }
+        }
+    }
+
+}
