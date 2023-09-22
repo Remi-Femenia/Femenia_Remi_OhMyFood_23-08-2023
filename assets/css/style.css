@@ -385,8 +385,8 @@ h2 {
 
 .rstrnt-principal {
   background-color: #F6F6F6;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   position: relative;
   z-index: 1;
   padding: 32px 17px 40px 17px;
@@ -395,7 +395,7 @@ h2 {
   justify-content: space-between;
   gap: 40px;
   margin-top: -58px;
-  max-width: 1055px;
+  max-width: 630px;
   margin-left: auto;
   margin-right: auto;
 }
