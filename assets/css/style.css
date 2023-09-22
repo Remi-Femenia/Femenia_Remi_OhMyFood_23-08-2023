@@ -128,8 +128,8 @@ h2 {
   bottom: 0;
   left: 0;
   opacity: 0;
-  z-index: -1;
   transition: opacity 400ms;
+  z-index: 2;
 }
 .like-section__like--on-icon {
   background: linear-gradient(180deg, #9356dc, #ff79da);

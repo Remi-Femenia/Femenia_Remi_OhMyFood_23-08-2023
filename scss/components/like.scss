@@ -28,9 +28,9 @@
             bottom: 0;
             left: 0;
             opacity: 0;
-            z-index: -1;
             transition: opacity 400ms;
-        
+            z-index: 2;
+            
             &-icon {
             background: linear-gradient(180deg,#9356dc,#ff79da);
             -webkit-background-clip: text;
