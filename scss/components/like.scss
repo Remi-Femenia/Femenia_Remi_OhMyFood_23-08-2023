@@ -30,12 +30,15 @@
             opacity: 0;
             z-index: -1;
             transition: opacity 400ms;
+        
+            &-icon {
+            background: linear-gradient(180deg,#9356dc,#ff79da);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -text-fill-color: transparent;
 
-            &::before {
-                @include like-gradient;
-                background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
             }
-            
         }
     }
 

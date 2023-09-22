@@ -131,9 +131,12 @@ h2 {
   z-index: -1;
   transition: opacity 400ms;
 }
-.like-section__like--on::before {
-  color: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
-  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+.like-section__like--on-icon {
+  background: linear-gradient(180deg, #9356dc, #ff79da);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -text-fill-color: transparent;
 }
 
 .footer {
