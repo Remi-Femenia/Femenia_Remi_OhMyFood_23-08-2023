@@ -442,6 +442,11 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   gap: 5px;
+  /* Points de suspensions si texte trop long */
+  max-width: 270px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu-and-check .menu-card-text-section__title {
   font-size: 1.1rem;

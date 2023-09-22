@@ -107,6 +107,12 @@
             justify-content: space-between;
             gap: 5px;
 
+            /* Points de suspensions si texte trop long */
+            max-width: 270px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
             &__title {
                 font-size: 1.1rem;
                 font-weight: 700;
