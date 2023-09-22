@@ -383,6 +383,12 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 600px) {
+  .rstrnt-principal {
+    padding-left: 210px;
+    padding-right: 210px;
+  }
+}
 .rstrnt-principal .rstrnt-title {
   display: flex;
   justify-content: center;
