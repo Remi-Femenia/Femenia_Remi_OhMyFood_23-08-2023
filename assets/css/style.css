@@ -313,6 +313,10 @@ h2 {
   border-radius: 20px;
   padding-top: 27px;
   padding-bottom: 27px;
+  cursor: pointer;
+}
+.fonctionnement-crd:hover .fonctionnement-crd__icon {
+  color: #9356DC;
 }
 .fonctionnement-crd__number {
   display: inline-block;

@@ -81,6 +81,16 @@
     border-radius: 20px;
     padding-top: 27px;
     padding-bottom: 27px;
+    cursor: pointer;
+
+    &:hover {
+
+        .fonctionnement-crd__icon {
+            color: $main-color;
+        }
+
+
+    }
 
     &__number {
         display: inline-block;
