@@ -401,6 +401,11 @@ h2 {
   height: 275px;
   object-fit: cover;
 }
+@media (min-width: 815px) {
+  .rstrnt-img-section__img {
+    height: 360px;
+  }
+}
 
 .rstrnt-principal {
   background-color: #F6F6F6;
