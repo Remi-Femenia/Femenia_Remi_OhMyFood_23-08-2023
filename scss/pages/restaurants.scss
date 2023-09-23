@@ -32,15 +32,27 @@
 
     .rstrnt-title {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 30px;
+
+        @media (min-width: 815px) {
+            justify-content: center;
+            gap: 30px;
+        }
 
 
         &__title {
             font-family: 'Shrikhand', cursive;
             font-size: 1.7rem;
 
+        }
+
+        .like-section {
+            margin-right: 24px;
+
+            @media (min-width: 815px) {
+                margin: 0;
+            }
         }
 
     }

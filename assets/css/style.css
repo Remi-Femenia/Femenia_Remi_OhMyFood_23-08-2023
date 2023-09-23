@@ -407,13 +407,26 @@ h2 {
 }
 .rstrnt-principal .rstrnt-title {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 30px;
+}
+@media (min-width: 815px) {
+  .rstrnt-principal .rstrnt-title {
+    justify-content: center;
+    gap: 30px;
+  }
 }
 .rstrnt-principal .rstrnt-title__title {
   font-family: "Shrikhand", cursive;
   font-size: 1.7rem;
+}
+.rstrnt-principal .rstrnt-title .like-section {
+  margin-right: 24px;
+}
+@media (min-width: 815px) {
+  .rstrnt-principal .rstrnt-title .like-section {
+    margin: 0;
+  }
 }
 
 .rstrnt-menu {
