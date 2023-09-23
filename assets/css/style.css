@@ -358,6 +358,11 @@ h2 {
   justify-content: space-between;
   gap: 18px;
 }
+@media (min-width: 815px) {
+  .restaurant-list {
+    flex-direction: row;
+  }
+}
 
 .restaurant-crd {
   background-color: white;
@@ -390,6 +395,11 @@ h2 {
   object-fit: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+@media (min-width: 815px) {
+  .restaurant-crd .img-section__img {
+    height: 350px;
+  }
 }
 .restaurant-crd .crd-content {
   padding: 12px 25px 15px 13px;

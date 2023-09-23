@@ -137,6 +137,10 @@
         flex-direction: column;
         justify-content: space-between;
         gap: 18px;
+
+        @media (min-width: 815px) {
+            flex-direction: row;
+        }
     }
 }
 
@@ -172,6 +176,10 @@
             object-fit: cover;
             border-top-left-radius: 15px;
             border-top-right-radius: 15px;
+
+            @media (min-width: 815px) {
+                height: 350px;
+            }
 
         }
 
