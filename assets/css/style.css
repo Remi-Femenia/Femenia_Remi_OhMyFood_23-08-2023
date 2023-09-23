@@ -229,6 +229,7 @@ h2 {
   font-size: 1rem;
   font-weight: 500;
   background-color: #EAEAEA;
+  width: 115px;
 }
 .search-location-form__input::placeholder {
   color: black;
