@@ -19,11 +19,16 @@
         font-weight: 500;
         background-color: $search-background;
         width: 115px;
+
+        &:focus::placeholder {
+            color: transparent;
+        }
         
         &::placeholder {
             color: black;
             font-size: 1rem;
             font-weight: 500;
+
         }
     }
 }              
