@@ -220,41 +220,54 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 0.5rem;
 }
-.loading .loading-icon .restaurant-bell {
+.loading-icon .restaurant-bell {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.loading .loading-icon .restaurant-bell__ball {
+.loading-icon .restaurant-bell__ball {
   background-color: white;
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
+  margin-bottom: -0.1rem;
 }
-.loading .loading-icon .restaurant-bell__principal {
+.loading-icon .restaurant-bell__principal {
   display: flex;
 }
-.loading .loading-icon .restaurant-bell__principal--left-part {
+.loading-icon .restaurant-bell__principal--left-part {
   background-color: white;
   width: 6rem;
   height: 6rem;
   border-top-left-radius: 100%;
 }
-.loading .loading-icon .restaurant-bell__principal--right-part {
+.loading-icon .restaurant-bell__principal--right-part {
   background-color: white;
   width: 6rem;
   height: 6rem;
   border-top-right-radius: 100%;
 }
-.loading__progress-bar {
+.loading-progress-bar .plate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.loading-progress-bar .plate--top {
   background-color: white;
-  height: 0.5rem;
+  height: 0.4rem;
   width: 15rem;
-  border-radius: 25%;
-  margin-bottom: -0.1rem;
-  /* border-radius: 83%; */
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.loading-progress-bar .plate--bottom {
+  background-color: white;
+  height: 0.3rem;
+  width: 13rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .search-location-form {

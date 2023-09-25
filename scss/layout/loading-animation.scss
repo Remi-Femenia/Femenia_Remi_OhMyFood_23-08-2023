@@ -8,9 +8,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 0.5rem;
 
-    .loading-icon {
+    &-icon {
 
         .restaurant-bell {
             display: flex;
@@ -22,6 +22,7 @@
                 height: 1rem;
                 width: 1rem;
                 border-radius: 50%;
+                margin-bottom: -0.1rem;
             }
 
             &__principal {
@@ -51,13 +52,30 @@
     
     }
 
-    &__progress-bar {
-        background-color: white;
-        height: 0.5rem;
-        width: 15rem;
-        border-radius: 25%;
-        margin-bottom: -0.1rem;
-        /* border-radius: 83%; */
+    &-progress-bar {
+
+        .plate {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &--top {
+                background-color: white;
+                height: 0.4rem;
+                width: 15rem;
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem;
+            }
+
+            &--bottom {
+                background-color: white;
+                height: 0.3rem;
+                width: 13rem;
+                border-bottom-left-radius: 1rem;
+                border-bottom-right-radius: 1rem
+            }
+        }
     }
 
 
