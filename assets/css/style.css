@@ -220,7 +220,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
 }
 .loading-icon .restaurant-bell {
   display: flex;
@@ -228,7 +227,7 @@ h2 {
   align-items: center;
 }
 .loading-icon .restaurant-bell__ball {
-  background-color: white;
+  background-color: #F6F6F6;
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
@@ -238,13 +237,13 @@ h2 {
   display: flex;
 }
 .loading-icon .restaurant-bell__principal--left-part {
-  background-color: white;
+  background-color: #F6F6F6;
   width: 6rem;
   height: 6rem;
   border-top-left-radius: 100%;
 }
 .loading-icon .restaurant-bell__principal--right-part {
-  background-color: white;
+  background-color: #F6F6F6;
   width: 6rem;
   height: 6rem;
   border-top-right-radius: 100%;
@@ -256,16 +255,16 @@ h2 {
   align-items: center;
 }
 .loading-progress-bar .plate--top {
-  background-color: white;
+  background-color: #F6F6F6;
   height: 0.4rem;
-  width: 15rem;
+  width: 14rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 .loading-progress-bar .plate--bottom {
-  background-color: white;
+  background-color: #F6F6F6;
   height: 0.3rem;
-  width: 13rem;
+  width: 12rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
