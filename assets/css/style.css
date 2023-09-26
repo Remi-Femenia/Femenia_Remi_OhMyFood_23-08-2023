@@ -220,6 +220,9 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: loading 3000ms;
+  opacity: 0;
+  display: none;
 }
 .loading-icon .restaurant-bell {
   display: flex;
@@ -270,7 +273,19 @@ h2 {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+.loading-text {
+  color: #F6F6F6;
+  font-family: "Shrikhand", cursive;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
 
+@keyframes loading {
+  0%, 100% {
+    opacity: 1;
+  }
+}
 @keyframes bell {
   0% {
     transform: translate(-100px, -300px);
