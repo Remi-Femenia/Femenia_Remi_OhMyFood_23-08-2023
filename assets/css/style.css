@@ -2,6 +2,9 @@
 /* Colors */
 /* Gradient */
 /* Fonts */
+/**** ANIMATION ****/
+/* Titles animation variables */
+/* Menu animation variables */
 body {
   margin: 0;
 }
@@ -317,8 +320,6 @@ h2 {
     transform: translate(0, 0);
   }
 }
-/* Titles animation variables */
-/* Menu animation variables */
 /***** Titles animation *****/
 .anim__title {
   animation: title 400ms backwards ease-out;

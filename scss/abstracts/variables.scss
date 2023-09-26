@@ -20,3 +20,17 @@ $gradient-color-2--hover: #ff99e2;
 $main-font-color: black;
 $big-weight: 700;
 $med-weight: 500;
+
+
+/**** ANIMATION ****/
+
+/* Titles animation variables */
+$title-num: 3;
+$title-anim-dur: 400ms;
+$title-anim-delay: $title-anim-dur / $title-num;
+
+/* Menu animation variables */
+
+$menu-num: 9;
+$menu-anim-dur: 1500ms;
+$menu-anim-delay: $menu-anim-dur / $menu-num;
