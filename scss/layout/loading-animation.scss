@@ -12,6 +12,7 @@
     visibility: hidden;
 
     &-icon {
+        position: relative;
 
         .restaurant-bell {
             display: flex;
@@ -52,6 +53,22 @@
         
         }
     
+    }
+
+    &-dot {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+        position: absolute;
+
+        .dot__item {
+            background-color: $background;
+            width: 2rem;
+            height: 2rem;
+            border-radius: 50%;
+        }
+
     }
 
     &-progress-bar {
