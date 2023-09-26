@@ -221,8 +221,7 @@ h2 {
   justify-content: center;
   align-items: center;
   animation: loading 3000ms;
-  opacity: 0;
-  display: none;
+  visibility: hidden;
 }
 .loading-icon .restaurant-bell {
   display: flex;
@@ -283,7 +282,7 @@ h2 {
 
 @keyframes loading {
   0%, 100% {
-    opacity: 1;
+    visibility: visible;
   }
 }
 @keyframes bell {

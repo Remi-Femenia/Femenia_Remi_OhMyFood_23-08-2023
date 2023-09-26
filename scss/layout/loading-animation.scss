@@ -9,8 +9,7 @@
     justify-content: center;
     align-items: center;
     animation: loading 3000ms;
-    opacity: 0;
-    display: none;
+    visibility: hidden;
 
     &-icon {
 
@@ -97,7 +96,7 @@
 
 @keyframes loading {
     0%, 100% {
-        opacity: 1;
+        visibility: visible;
     }
 }
 
