@@ -55,8 +55,6 @@ $menu-anim-delay: $menu-anim-dur / $menu-num;
 @keyframes menu {
     0% {
         transform: translateX(900px);
-
-
     }
 
     100% {
