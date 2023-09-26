@@ -1,0 +1,52 @@
+/***** Titles animation *****/
+
+.anim__title {
+    animation: title $title-anim-dur backwards ease-out;
+    transform: translateX(0);
+    @for $i from 1 through $title-num {
+        &--#{$i} {
+            animation-delay: $title-anim-delay * $i;
+         }
+    }
+
+}
+
+@keyframes title {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+}
+
+
+
+/***** Menu items animation *****/
+
+.anim-menu {
+    animation: menu 500ms $menu-anim-dur backwards ease-out;
+    transform: translateX(0);
+    @for $i from 1 through $menu-num {
+        &--#{$i} {
+            animation-delay: $menu-anim-delay * $i;
+         }
+    }
+
+}
+
+@keyframes menu {
+    0% {
+        transform: translateX(900px);
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
