@@ -317,6 +317,32 @@ h2 {
     transform: translate(0, 0);
   }
 }
+.anim__title {
+  animation: title 400ms backwards ease-out;
+  transform: translateX(0);
+}
+.anim__title--1 {
+  animation-delay: 133.3333333333ms;
+}
+.anim__title--2 {
+  animation-delay: 266.6666666667ms;
+}
+.anim__title--3 {
+  animation-delay: 400ms;
+}
+
+/*** Titles animation ***/
+@keyframes title {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/*** Menu items animation ***/
 .search-location-form {
   background-color: #EAEAEA;
   display: flex;
