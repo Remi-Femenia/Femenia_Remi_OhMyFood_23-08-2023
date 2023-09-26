@@ -346,35 +346,35 @@ h2 {
 }
 /***** Menu items animation *****/
 .anim-menu {
-  animation: menu 500ms 2000ms backwards ease-out;
+  animation: menu 500ms 1500ms backwards ease-out;
   transform: translateX(0);
 }
 .anim-menu--1 {
-  animation-delay: 222.2222222222ms;
+  animation-delay: 166.6666666667ms;
 }
 .anim-menu--2 {
-  animation-delay: 444.4444444444ms;
+  animation-delay: 333.3333333333ms;
 }
 .anim-menu--3 {
-  animation-delay: 666.6666666667ms;
+  animation-delay: 500ms;
 }
 .anim-menu--4 {
-  animation-delay: 888.8888888889ms;
+  animation-delay: 666.6666666667ms;
 }
 .anim-menu--5 {
-  animation-delay: 1111.1111111111ms;
+  animation-delay: 833.3333333333ms;
 }
 .anim-menu--6 {
-  animation-delay: 1333.3333333333ms;
+  animation-delay: 1000ms;
 }
 .anim-menu--7 {
-  animation-delay: 1555.5555555556ms;
+  animation-delay: 1166.6666666667ms;
 }
 .anim-menu--8 {
-  animation-delay: 1777.7777777778ms;
+  animation-delay: 1333.3333333333ms;
 }
 .anim-menu--9 {
-  animation-delay: 2000ms;
+  animation-delay: 1500ms;
 }
 
 @keyframes menu {
