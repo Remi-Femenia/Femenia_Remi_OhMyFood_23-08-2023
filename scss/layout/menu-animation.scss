@@ -43,6 +43,7 @@
 @keyframes menu {
     0% {
         transform: translateX(900px);
+        opacity: 0;
     }
 
     100% {
