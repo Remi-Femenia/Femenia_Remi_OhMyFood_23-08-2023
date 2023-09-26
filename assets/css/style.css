@@ -317,6 +317,9 @@ h2 {
     transform: translate(0, 0);
   }
 }
+/* Titles animation variables */
+/* Menu animation variables */
+/***** Titles animation *****/
 .anim__title {
   animation: title 400ms backwards ease-out;
   transform: translateX(0);
@@ -331,7 +334,6 @@ h2 {
   animation-delay: 400ms;
 }
 
-/*** Titles animation ***/
 @keyframes title {
   0% {
     transform: translateX(-300px);
@@ -342,7 +344,48 @@ h2 {
     opacity: 1;
   }
 }
-/*** Menu items animation ***/
+/***** Menu items animation *****/
+.anim-menu {
+  animation: menu 500ms 2000ms backwards ease-out;
+  transform: translateX(0);
+}
+.anim-menu--1 {
+  animation-delay: 222.2222222222ms;
+}
+.anim-menu--2 {
+  animation-delay: 444.4444444444ms;
+}
+.anim-menu--3 {
+  animation-delay: 666.6666666667ms;
+}
+.anim-menu--4 {
+  animation-delay: 888.8888888889ms;
+}
+.anim-menu--5 {
+  animation-delay: 1111.1111111111ms;
+}
+.anim-menu--6 {
+  animation-delay: 1333.3333333333ms;
+}
+.anim-menu--7 {
+  animation-delay: 1555.5555555556ms;
+}
+.anim-menu--8 {
+  animation-delay: 1777.7777777778ms;
+}
+.anim-menu--9 {
+  animation-delay: 2000ms;
+}
+
+@keyframes menu {
+  0% {
+    transform: translateX(900px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 .search-location-form {
   background-color: #EAEAEA;
   display: flex;

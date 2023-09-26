@@ -1,7 +1,16 @@
+/* Titles animation variables */
 $title-num: 3;
 $title-anim-dur: 400ms;
 $title-anim-delay: $title-anim-dur / $title-num;
 
+/* Menu animation variables */
+
+$menu-num: 9;
+$menu-anim-dur: 2000ms;
+$menu-anim-delay: $menu-anim-dur / $menu-num;
+
+
+/***** Titles animation *****/
 
 .anim__title {
     animation: title $title-anim-dur backwards ease-out;
@@ -13,10 +22,6 @@ $title-anim-delay: $title-anim-dur / $title-num;
     }
 
 }
-
-
-
-/*** Titles animation ***/
 
 @keyframes title {
     0% {
@@ -32,4 +37,30 @@ $title-anim-delay: $title-anim-dur / $title-num;
     }
 }
 
-/*** Menu items animation ***/
+
+
+/***** Menu items animation *****/
+
+.anim-menu {
+    animation: menu 500ms $menu-anim-dur backwards ease-out;
+    transform: translateX(0);
+    @for $i from 1 through $menu-num {
+        &--#{$i} {
+            animation-delay: $menu-anim-delay * $i;
+         }
+    }
+
+}
+
+@keyframes menu {
+    0% {
+        transform: translateX(900px);
+
+
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
