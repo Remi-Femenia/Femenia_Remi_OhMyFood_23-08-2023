@@ -52,7 +52,7 @@
     margin: 48px 20px 68px 25px;
 
     @media (min-width: 815px) {
-        margin: 50px 185px;
+        margin: 50px 13%;
     }
 
     &-steps {
@@ -132,6 +132,14 @@
     justify-content: space-between;
     gap: 24px;
 
+    @media (min-width: 815px) {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 13%;
+        padding-right: 13%;
+        gap: 28px;
+    }
+
     &-list {
         display: flex;
         flex-direction: column;
@@ -140,65 +148,77 @@
 
         @media (min-width: 815px) {
             flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0;
         }
     }
 }
 
-.restaurant-crd {
-    background-color: white;
-    border-radius: 15px;
-    box-sizing: border-box;
+.restaurant-crd__link {
+    @media (min-width: 815px) {
+        width: 46%;
+    }
 
-    .img-section {
-        position: relative;
-        display: flex;
-        justify-content: end;
-
-        &__new {
-            width: 80px;
-            height: 29px;
-            font-size: 0.8rem;
-            color: $element-text;
-            background-color: $second-color;
-            padding-top: 7px;
-            border-radius: 5%;
-            position: absolute;
-            box-sizing: border-box;
-            top: 13px;
-            right: 13px;
-            text-align: center;
-            box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
-        }
-
-        &__img {
-            height: 160px;
-            width: 100%;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-
-            @media (min-width: 815px) {
-                height: 350px;
-            }
-
+    &--bottom {
+        @media (min-width: 815px) {
+            padding-top: 50px;
         }
 
     }
 
-    .crd-content {
-        padding: 12px 25px 15px 13px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
 
-        .crd-text {
+    .restaurant-crd {
+        background-color: white;
+        border-radius: 15px;
+        box-sizing: border-box;
 
-            &__title {
-                margin-bottom: 5px;
+        .img-section {
+            position: relative;
+            display: flex;
+            justify-content: end;
+
+            &__new {
+                width: 80px;
+                height: 29px;
+                font-size: 0.8rem;
+                color: $element-text;
+                background-color: $second-color;
+                padding-top: 7px;
+                border-radius: 5%;
+                position: absolute;
+                box-sizing: border-box;
+                top: 13px;
+                right: 13px;
+                text-align: center;
+                box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+            }
+
+            &__img {
+                height: 160px;
+                width: 100%;
+                object-fit: cover;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
 
             }
 
+        }
+
+        .crd-content {
+            padding: 12px 25px 15px 13px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .crd-text {
+
+                &__title {
+                    margin-bottom: 5px;
+
+                }
+
+            }
         }
     }
 }
