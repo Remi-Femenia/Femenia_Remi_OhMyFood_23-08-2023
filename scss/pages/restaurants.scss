@@ -93,6 +93,7 @@
             flex-direction: column;
             gap: 12px;
             margin-top: 19px;
+            box-sizing: border-box;
         }
 
 
@@ -107,6 +108,7 @@
     display: flex;
     border-radius: 15px;
     background-color: white;
+    box-sizing: border-box;
 
     &:hover .menu-check{
         transform: scaleX(1);
@@ -132,21 +134,22 @@
             flex-direction: column;
             justify-content: space-between;
             gap: 5px;
-
-            /* Points de suspensions si texte trop long */
-            max-width: 270px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
+            width: 90%;
 
             &__title {
                 font-size: 1.1rem;
                 font-weight: 700;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
 
             &__subtitle {
                 font-size: 0.9rem;
                 font-weight: 300;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
             }
         }
 

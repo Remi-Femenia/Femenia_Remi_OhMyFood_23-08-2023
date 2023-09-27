@@ -701,6 +701,7 @@ h2 {
   flex-direction: column;
   gap: 12px;
   margin-top: 19px;
+  box-sizing: border-box;
 }
 
 /*** Menu item ***/
@@ -709,6 +710,7 @@ h2 {
   display: flex;
   border-radius: 15px;
   background-color: white;
+  box-sizing: border-box;
 }
 .menu-and-check:hover .menu-check {
   transform: scaleX(1);
@@ -728,19 +730,21 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
   gap: 5px;
-  /* Points de suspensions si texte trop long */
-  max-width: 270px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  width: 90%;
 }
 .menu-and-check .menu-card-text-section__title {
   font-size: 1.1rem;
   font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu-and-check .menu-card-text-section__subtitle {
   font-size: 0.9rem;
   font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu-and-check .menu-card-price-section {
   display: flex;
