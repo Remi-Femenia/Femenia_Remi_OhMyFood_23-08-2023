@@ -3,20 +3,9 @@
 .anim-menu {
     animation: menu 500ms $menu-anim-dur backwards ease-out;
     transform: translateX(0);
-    @for $i from 1 through $menu-num-9 {
+    @for $i from 1 through $menu-num {
         &--#{$i} {
             animation-delay: $menu-anim-delay * $i;
-         }
-    }
-
-}
-
-.anim-menu-10 {
-    animation: menu 500ms $menu-anim-dur backwards ease-out;
-    transform: translateX(0);
-    @for $i from 1 through $menu-num-10 {
-        &--#{$i} {
-            animation-delay: $menu-anim-delay-10 * $i;
          }
     }
 

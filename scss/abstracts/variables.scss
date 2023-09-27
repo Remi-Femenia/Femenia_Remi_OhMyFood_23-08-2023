@@ -31,8 +31,8 @@ $title-anim-delay: calc($title-anim-dur / $title-num);
 
 /* Menu animation variables */
 
-$menu-num-9: 9;
+$menu-num: 12;
 $menu-num-10: 10;
 $menu-anim-dur: 1500ms;
-$menu-anim-delay: $menu-anim-dur / $menu-num-9;
+$menu-anim-delay: $menu-anim-dur / $menu-num;
 $menu-anim-delay-10: $menu-anim-dur / $menu-num-10;
