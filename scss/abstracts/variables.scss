@@ -27,7 +27,7 @@ $med-weight: 500;
 /* Titles animation variables */
 $title-num: 3;
 $title-anim-dur: 400ms;
-$title-anim-delay: $title-anim-dur / $title-num;
+$title-anim-delay: calc($title-anim-dur / $title-num);
 
 /* Menu animation variables */
 

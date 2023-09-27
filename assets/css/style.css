@@ -226,6 +226,9 @@ h2 {
   animation: loading 3000ms;
   visibility: hidden;
 }
+.loading-icon {
+  position: relative;
+}
 .loading-icon .restaurant-bell {
   display: flex;
   flex-direction: column;
@@ -253,6 +256,19 @@ h2 {
   width: 6rem;
   height: 6rem;
   border-top-right-radius: 100%;
+}
+.loading-dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  position: absolute;
+}
+.loading-dot .dot__item {
+  background-color: #F6F6F6;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
 }
 .loading-progress-bar .plate {
   display: flex;
@@ -381,6 +397,7 @@ h2 {
 @keyframes menu {
   0% {
     transform: translateX(900px);
+    opacity: 0;
   }
   100% {
     transform: translateX(0);
