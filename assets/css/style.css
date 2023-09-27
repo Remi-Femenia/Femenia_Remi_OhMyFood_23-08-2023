@@ -391,6 +391,41 @@ h2 {
   animation-delay: 1500ms;
 }
 
+.anim-menu-10 {
+  animation: menu 500ms 1500ms backwards ease-out;
+  transform: translateX(0);
+}
+.anim-menu-10--1 {
+  animation-delay: 150ms;
+}
+.anim-menu-10--2 {
+  animation-delay: 300ms;
+}
+.anim-menu-10--3 {
+  animation-delay: 450ms;
+}
+.anim-menu-10--4 {
+  animation-delay: 600ms;
+}
+.anim-menu-10--5 {
+  animation-delay: 750ms;
+}
+.anim-menu-10--6 {
+  animation-delay: 900ms;
+}
+.anim-menu-10--7 {
+  animation-delay: 1050ms;
+}
+.anim-menu-10--8 {
+  animation-delay: 1200ms;
+}
+.anim-menu-10--9 {
+  animation-delay: 1350ms;
+}
+.anim-menu-10--10 {
+  animation-delay: 1500ms;
+}
+
 @keyframes menu {
   0% {
     transform: translateX(900px);
