@@ -26,6 +26,7 @@
         @media (min-width: 815px) {
             font-size: 2.5rem;
         }
+
     }
 
     &__subtitle {
@@ -39,6 +40,7 @@
         margin-top: 27px;
         margin-bottom: 57px;
     }
+
 }
 
 
@@ -67,7 +69,9 @@
             flex-direction: row;
             gap: 35px;
         }
+
     }
+
 }
 
 .fonctionnement-crd {
@@ -88,7 +92,6 @@
         .fonctionnement-crd__icon {
             color: $main-color;
         }
-
 
     }
 
@@ -151,15 +154,19 @@
             flex-wrap: wrap;
             gap: 0;
         }
+
     }
+
 }
 
 .restaurant-crd__link {
+
     @media (min-width: 815px) {
         width: 46%;
     }
 
     &--bottom {
+
         @media (min-width: 815px) {
             padding-top: 50px;
         }
@@ -219,6 +226,9 @@
                 }
 
             }
+
         }
+
     }
+    
 }

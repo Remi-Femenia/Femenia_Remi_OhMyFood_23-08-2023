@@ -8,7 +8,7 @@ $background: #F6F6F6;
 $search-background: #EAEAEA;
 $footer-background: #353535;
 
-/* Gradient */
+/* Gradients */
 
 $gradient-color-1: rgba(147,86,220,1);
 $gradient-color-2: rgba(255,121,218,1);
@@ -22,20 +22,23 @@ $big-weight: 700;
 $med-weight: 500;
 
 
-/**** ANIMATION ****/
 
-/* Titles animation variables */
+/****** Animation ******/
+
+/* Titles animation */
 $title-num: 3;
 $title-anim-dur: 400ms;
 $title-anim-delay: calc($title-anim-dur / $title-num);
 
-/* Menu animation variables */
+
+/* Menu animation */
 
 $menu-num: 12;
 $menu-num-10: 10;
 $menu-anim-dur: 1500ms;
 $menu-anim-delay: $menu-anim-dur / $menu-num;
 $menu-anim-delay-10: $menu-anim-dur / $menu-num-10;
+
 
 /* Index loading animation */
 

@@ -11,7 +11,6 @@
         align-items: flex-end;
         padding: 60px 25px 30px 0;
         gap: 60px;
-
     }
 
     .footer-title {
@@ -34,10 +33,10 @@
         .footer-list-element {
             
             &__link {
-            color: white;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+                color: white;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
 
                 &__icon {
                     padding-right: 11px;
@@ -46,7 +45,9 @@
                 }
 
             }
+
         }
 
     }
+    
 }

@@ -14,8 +14,9 @@
 
             & .like-section__like--on  {
             content: "";
-            opacity: 1;
+                opacity: 1;
             }
+
         }
 
         &--on {
@@ -39,7 +40,9 @@
                 -text-fill-color: transparent;
 
             }
+
         }
+
     }
 
 }

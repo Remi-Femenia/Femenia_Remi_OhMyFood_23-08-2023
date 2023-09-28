@@ -1,4 +1,3 @@
-
 /*** Image ***/
 
 .rstrnt-img-section__img {
@@ -9,6 +8,7 @@
     @media (min-width: 815px) {
         height: 360px;
     }
+
 }
 
 .rstrnt-principal {
@@ -30,9 +30,7 @@
     @media (min-width: 815px) {
         padding-left: 210px;
         padding-right: 210px;
-
     }
-
 
     .rstrnt-title {
         display: flex;
@@ -44,11 +42,9 @@
             gap: 30px;
         }
 
-
         &__title {
             font-family: 'Shrikhand', cursive;
             font-size: 1.7rem;
-
         }
 
         .like-section {
@@ -57,10 +53,10 @@
             @media (min-width: 815px) {
                 margin: 0;
             }
+
         }
 
     }
-
 
 }
 
@@ -72,18 +68,19 @@
     gap: 40px;
 
     .menu-section {
+
         .menu-title {
             position: relative;
             font-size: 1rem;
             font-weight: 300;
 
             &::before {
-            content: "";
-            position: absolute;
-            top: 19px;
-            height: 5px;
-            width: 40px;
-            border-bottom: 3px $second-color solid;
+                content: "";
+                position: absolute;
+                top: 19px;
+                height: 5px;
+                width: 40px;
+                border-bottom: 3px $second-color solid;
             }
             
         }
@@ -144,8 +141,8 @@
         }
         
         .menu-check {
-        transform: scaleX(1);
-        padding: 0 20px;
+            transform: scaleX(1);
+            padding: 0 20px;
 
             &__check{
                 display: block;
@@ -154,16 +151,12 @@
 
     }
 
-
     .menu-card {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         
-       
-        
-
         &-text-section {
             display: flex;
             flex-direction: column;
@@ -181,6 +174,7 @@
                 @media (max-width: 300px) {
                     width: 180px;
                 }
+
             }
 
             &__subtitle {
@@ -193,7 +187,9 @@
                 @media (max-width: 300px) {
                     width: 180px;
                 }
+
             }
+
         }
 
         &-price-section {
@@ -208,7 +204,9 @@
                 font-weight: 700;
                 font-size: 0.9rem;
             }
+
         }
+
     }
 
     .menu-check {
@@ -227,6 +225,7 @@
         &__check {
             display: none;
         }
+
     }
 
 }

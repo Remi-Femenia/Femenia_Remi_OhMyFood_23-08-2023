@@ -12,7 +12,8 @@
 
         &:hover {
             @include button-gradient-hover;
-            @include button-shadow-hover;          
+            @include button-shadow-hover;
+
         }
 
     }

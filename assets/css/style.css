@@ -1,10 +1,10 @@
 /* button hover */
 /* Colors */
-/* Gradient */
+/* Gradients */
 /* Fonts */
-/**** ANIMATION ****/
-/* Titles animation variables */
-/* Menu animation variables */
+/****** Animation ******/
+/* Titles animation */
+/* Menu animation */
 /* Index loading animation */
 body {
   margin: 0;
@@ -214,6 +214,7 @@ h2 {
   width: 162px;
 }
 
+/*** Animation items ***/
 .loading {
   position: fixed;
   width: 100%;
@@ -282,17 +283,6 @@ h2 {
 .loading-dot .dot__item--3 {
   animation-delay: 1500ms;
 }
-@keyframes dot {
-  0% {
-    transform: scale(1, 1);
-  }
-  50% {
-    transform: scale(2, 2);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
 .loading-progress-bar .plate {
   display: flex;
   flex-direction: column;
@@ -322,6 +312,7 @@ h2 {
   text-align: center;
 }
 
+/*** Animation rules ***/
 @keyframes loading {
   0%, 100% {
     visibility: visible;
@@ -348,6 +339,17 @@ h2 {
     transform: translate(0);
     rotate: 0deg;
     opacity: 1;
+  }
+}
+@keyframes dot {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
 @keyframes plate {
