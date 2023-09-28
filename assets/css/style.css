@@ -66,6 +66,7 @@ h2 {
 }
 
 .principal-btn {
+  display: block;
   font-size: 1rem;
   border: 0;
   border-radius: 25px;
