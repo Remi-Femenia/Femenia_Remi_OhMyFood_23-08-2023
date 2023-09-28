@@ -118,16 +118,26 @@
                 
                 &__title {
 
-                    @media (max-width: 814px) {
+                    @media (max-width: 400px) {
                     width: 200px;
                     }
+
+                    @media (max-width: 300px) {
+                        width: 100px;
+                    }
+
+
                 }
 
                 &__subtitle {
                     
-                    @media (max-width: 814px) {
+                    @media (max-width: 400px) {
                         width: 200px;
-                        }
+                    }
+
+                    @media (max-width: 300px) {
+                        width: 100px;
+                    }
                 }
             }
 
@@ -167,6 +177,10 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+
+                @media (max-width: 300px) {
+                    width: 180px;
+                }
             }
 
             &__subtitle {
@@ -175,6 +189,10 @@
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+
+                @media (max-width: 300px) {
+                    width: 180px;
+                }
             }
         }
 
@@ -225,8 +243,3 @@
     }
 
 }
-
-
-
-
-

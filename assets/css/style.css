@@ -721,14 +721,24 @@ h2 {
   background-color: white;
   box-sizing: border-box;
 }
-@media (max-width: 814px) {
+@media (max-width: 400px) {
   .menu-and-check:hover .menu-card-text-section__title {
     width: 200px;
   }
 }
-@media (max-width: 814px) {
+@media (max-width: 300px) {
+  .menu-and-check:hover .menu-card-text-section__title {
+    width: 100px;
+  }
+}
+@media (max-width: 400px) {
   .menu-and-check:hover .menu-card-text-section__subtitle {
     width: 200px;
+  }
+}
+@media (max-width: 300px) {
+  .menu-and-check:hover .menu-card-text-section__subtitle {
+    width: 100px;
   }
 }
 .menu-and-check:hover .menu-check {
@@ -758,12 +768,22 @@ h2 {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+@media (max-width: 300px) {
+  .menu-and-check .menu-card-text-section__title {
+    width: 180px;
+  }
+}
 .menu-and-check .menu-card-text-section__subtitle {
   font-size: 0.9rem;
   font-weight: 300;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+@media (max-width: 300px) {
+  .menu-and-check .menu-card-text-section__subtitle {
+    width: 180px;
+  }
 }
 .menu-and-check .menu-card-price-section {
   display: flex;
