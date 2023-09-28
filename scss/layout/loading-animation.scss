@@ -1,6 +1,4 @@
-$dot-anim-dur: 800ms;
-$dot-anim-delay: 500ms;
-$dot-num: 3;
+
 
 .loading {
     position: fixed;
@@ -26,35 +24,31 @@ $dot-num: 3;
 
             &__ball {
                 background-color: $background;
-                height: 1rem;
-                width: 1rem;
+                height: 16px;
+                width: 16px;
                 border-radius: 50%;
-                margin-bottom: -0.1rem;
+                margin-bottom: 1.6px;
             }
 
             &__principal {
                 display: flex;
 
-            
                 &--left-part {
                     background-color: $background;
-                    width: 6rem;
-                    height: 6rem;
+                    width: 96px;
+                    height: 96px;
                     border-top-left-radius: 100%;
-
                 }
 
                 &--right-part {
                     background-color: $background;
-                    width: 6rem;
-                    height: 6rem;
+                    width: 96px;
+                    height: 96px;
                     border-top-right-radius: 100%;
-
                 }
 
             }
 
-        
         }
     
     }
@@ -63,14 +57,14 @@ $dot-num: 3;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 1rem;
+        gap: 16px;
         position: absolute;
-        margin-bottom: 3rem;
+        margin-bottom: 48px;
 
         .dot__item {
             background-color: $background;
-            width: 0.5rem;
-            height: 0.5rem;
+            width: 8px;
+            height: 8px;
             border-radius: 50%;
             animation: dot $dot-anim-delay $dot-anim-dur ease-in-out;
             
@@ -114,18 +108,18 @@ $dot-num: 3;
 
             &--top {
                 background-color: $background;
-                height: 0.4rem;
-                width: 14rem;
-                border-bottom-left-radius: 1rem;
-                border-bottom-right-radius: 1rem;
+                height: 6.4px;
+                width: 224px;
+                border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;
             }
 
             &--bottom {
                 background-color: $background;
-                height: 0.3rem;
-                width: 12rem;
-                border-bottom-left-radius: 1rem;
-                border-bottom-right-radius: 1rem
+                height: 4.8px;
+                width: 192px;
+                border-bottom-left-radius: 16px;
+                border-bottom-right-radius: 16px;
             }
         }
     }
@@ -133,8 +127,8 @@ $dot-num: 3;
     &-text {
         color: $background;
         font-family: 'Shrikhand', cursive;
-        font-size: 1.2rem;
-        margin-top: 3rem;
+        font-size: 19px;
+        margin-top: 48px;
         text-align: center;
 
     }
