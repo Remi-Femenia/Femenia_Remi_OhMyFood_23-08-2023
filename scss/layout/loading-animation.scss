@@ -126,20 +126,12 @@
 }
 
 @keyframes bell {
-    0%{
-        transform: translate(-100px, -300px);
+    
+    0%,80%{
+        transform: translate(-50px, -200px);
+        transform: rotate(60deg);
         opacity: 0;
         transform-origin: right;
-        rotate: +60deg;
-    }
-
-    30%{
-        opacity: 0;
-    }
-
-    80%{
-        transform: translate(-50px, -150px);
-        rotate: +60deg;
     }
 
     90%{
@@ -148,7 +140,7 @@
 
     100%{
         transform: translate(0);
-        rotate: 0;
+        transform: rotate(0);
         opacity: 1;
     }
 }
