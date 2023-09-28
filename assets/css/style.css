@@ -721,11 +721,21 @@ h2 {
   background-color: white;
   box-sizing: border-box;
 }
+@media (max-width: 814px) {
+  .menu-and-check:hover .menu-card-text-section__title {
+    width: 200px;
+  }
+}
+@media (max-width: 814px) {
+  .menu-and-check:hover .menu-card-text-section__subtitle {
+    width: 200px;
+  }
+}
 .menu-and-check:hover .menu-check {
   transform: scaleX(1);
   padding: 0 20px;
 }
-.menu-and-check:hover .menu-check .menu-check__check {
+.menu-and-check:hover .menu-check__check {
   display: block;
 }
 .menu-and-check .menu-card {

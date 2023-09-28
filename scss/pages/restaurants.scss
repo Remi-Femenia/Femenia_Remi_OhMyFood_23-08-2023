@@ -110,13 +110,38 @@
     background-color: white;
     box-sizing: border-box;
 
-    &:hover .menu-check{
+    &:hover {
+
+        .menu-card {
+        
+            &-text-section {
+                
+                &__title {
+
+                    @media (max-width: 814px) {
+                    width: 200px;
+                    }
+                }
+
+                &__subtitle {
+                    
+                    @media (max-width: 814px) {
+                        width: 200px;
+                        }
+                }
+            }
+
+        }
+        
+        .menu-check {
         transform: scaleX(1);
         padding: 0 20px;
 
-        .menu-check__check{
-            display: block;
+            &__check{
+                display: block;
+            }
         }
+
     }
 
 
