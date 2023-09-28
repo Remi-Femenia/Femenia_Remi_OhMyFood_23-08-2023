@@ -27,7 +27,7 @@
                 height: 16px;
                 width: 16px;
                 border-radius: 50%;
-                margin-bottom: 1.6px;
+                margin-bottom: -2px;
             }
 
             &__principal {
@@ -130,7 +130,7 @@
         transform: translate(-100px, -300px);
         opacity: 0;
         transform-origin: right;
-        rotate: 60deg;
+        rotate: +60deg;
     }
 
     30%{
@@ -139,7 +139,7 @@
 
     80%{
         transform: translate(-50px, -150px);
-        rotate: 60deg;
+        rotate: +60deg;
     }
 
     90%{
@@ -148,7 +148,7 @@
 
     100%{
         transform: translate(0);
-        rotate: 0deg;
+        rotate: 0;
         opacity: 1;
     }
 }

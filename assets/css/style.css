@@ -242,7 +242,7 @@ h2 {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  margin-bottom: 1.6px;
+  margin-bottom: -2px;
 }
 .loading-icon .restaurant-bell__principal {
   display: flex;
@@ -337,7 +337,7 @@ h2 {
   }
   100% {
     transform: translate(0);
-    rotate: 0deg;
+    rotate: 0;
     opacity: 1;
   }
 }
