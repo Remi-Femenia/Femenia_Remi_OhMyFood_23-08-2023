@@ -82,6 +82,7 @@ h2 {
 }
 .principal-btn:hover::after {
   opacity: 1;
+  transition: opacity 300ms;
 }
 .principal-btn::after {
   content: "";
@@ -95,7 +96,7 @@ h2 {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
   z-index: -1;
   opacity: 0;
-  transition: opacity 250ms;
+  transition: opacity 300ms;
 }
 
 .menu-card {
