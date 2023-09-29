@@ -15,6 +15,7 @@
             & .like-section__like--on  {
             content: "";
                 opacity: 1;
+                transition: opacity 300ms;
             }
 
         }

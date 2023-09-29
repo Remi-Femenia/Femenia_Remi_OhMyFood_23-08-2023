@@ -139,6 +139,7 @@ h2 {
 .like-section__like:hover .like-section__like--on {
   content: "";
   opacity: 1;
+  transition: opacity 300ms;
 }
 .like-section__like--on {
   display: flex;
