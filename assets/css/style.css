@@ -757,6 +757,7 @@ h2 {
 .menu-and-check:hover .menu-check {
   transform: scaleX(1);
   padding: 0 20px;
+  transition: transform 200ms ease-out;
 }
 .menu-and-check:hover .menu-check__check {
   display: block;
