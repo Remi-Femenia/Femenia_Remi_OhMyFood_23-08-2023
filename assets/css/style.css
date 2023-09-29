@@ -523,8 +523,7 @@ h2 {
   align-items: center;
   background-color: #F6F6F6;
   border-radius: 20px;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding: 27px 6px 27px 0;
   cursor: pointer;
 }
 .fonctionnement-crd:hover .fonctionnement-crd__icon {
